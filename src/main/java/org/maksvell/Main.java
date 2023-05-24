@@ -42,7 +42,7 @@ public class Main {
         long executionTime = endTime - startTime;
         System.out.println("Time of completion: " + executionTime + " milliseconds");
 
-        System.out.println("Count of groups with 1 element: " + groups.size());
+        System.out.println("Count of groups with more than 1 element: " + groups.size());
     }
 
     private static List<List<String>> readLinesFromFile(String filePath) {
